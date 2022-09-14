@@ -6,7 +6,7 @@
         name: '{{ apache_pagespeed_module_cache_directory }}'
         owner: '{{ apache_daemon_user }}'
         group: '{{ apache_daemon_group }}'
-        mode: 0755
+        mode: '755'
         state: directory
 
     - name: Download PageSpeed module
